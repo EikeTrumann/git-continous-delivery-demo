@@ -15,3 +15,5 @@ rm cron.template
 
 # Make the update script executable
 chmod +x update.sh
+chmod +x before-update.sh
+chmod +x after-update.sh
