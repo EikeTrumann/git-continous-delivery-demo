@@ -1,2 +1,3 @@
 #!/bin/bash
+date > pre-rebase.log
 echo "This is the pre-rebase-hook"
