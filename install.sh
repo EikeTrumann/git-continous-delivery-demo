@@ -13,10 +13,5 @@ echo "$cronbase $basename/$scriptname" > cron.template
 crontab cron.template
 rm cron.template
 
-# Set-Uo the hooks
-cp pre-rebase.hook .git/hooks/pre-rebase
-cp post-rewrite.hook .git/hooks/post-rewrite
-
 # Make the update script executable
-
 chmod +x update.sh
